@@ -12,7 +12,7 @@ source:
 
 build:
   merge_build_host: True  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -49,13 +49,14 @@ test:
     - "\"%R%\" -e \"library('transformeR')\""  # [win]
 
 about:
-  home: http://www.meteo.unican.es/climate4r
-  license: GPL-3.0-or-later
+  home: https://github.com/SantanderMetGroup/climate4R
   summary: Tools for climate data analysis, visualization and manipulation. A building block
-    of the climate4R Framework <http://www.meteo.unican.es/climate4R>.
+    of the climate4R Framework <https://github.com/SantanderMetGroup/climate4R>.
+  doc_url: https://github.com/SantanderMetGroup/transformeR/wiki
+  dev_url: https://github.com/SantanderMetGroup/transformeR
+  license: GPL-3.0-or-later
   license_family: GPL3
-  license_file:
-    - LICENSE
+  license_file: LICENSE.txt
 
 extra:
   recipe-maintainers:
