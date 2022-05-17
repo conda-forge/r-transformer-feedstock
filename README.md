@@ -1,13 +1,17 @@
 About r-transformer
 ===================
 
-Home: http://www.meteo.unican.es/climate4r
+Home: https://github.com/SantanderMetGroup/climate4R
 
 Package license: GPL-3.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-transformer-feedstock/blob/main/LICENSE.txt)
 
-Summary: Tools for climate data analysis, visualization and manipulation. A building block of the climate4R Framework <http://www.meteo.unican.es/climate4R>.
+Summary: Tools for climate data analysis, visualization and manipulation. A building block of the climate4R Framework <https://github.com/SantanderMetGroup/climate4R>.
+
+Development: https://github.com/SantanderMetGroup/transformeR
+
+Documentation: https://github.com/SantanderMetGroup/transformeR/wiki
 
 Current build status
 ====================
