@@ -1,4 +1,4 @@
-{% set version = '2.1.0' %}
+{% set version = "2.1.5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -8,11 +8,11 @@ package:
 
 source:
   url: https://github.com/SantanderMetGroup/transformeR/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 68502ad405e7d92b728271162e73a195c6b69454fc0be94a069101e608830adf
+  sha256: 4ab4a40b735917d51eace4a0e67920fda990b0b66b3b4312449de53073ad85f6
 
 build:
-  merge_build_host: True  # [win]
-  number: 3
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -50,8 +50,7 @@ test:
 
 about:
   home: https://github.com/SantanderMetGroup/climate4R
-  summary: Tools for climate data analysis, visualization and manipulation. A building block
-    of the climate4R Framework <https://github.com/SantanderMetGroup/climate4R>.
+  summary: Tools for climate data analysis, visualization and manipulation. A building block of the climate4R Framework <https://github.com/SantanderMetGroup/climate4R>.
   doc_url: https://github.com/SantanderMetGroup/transformeR/wiki
   dev_url: https://github.com/SantanderMetGroup/transformeR
   license: GPL-3.0-or-later
@@ -62,7 +61,7 @@ extra:
   recipe-maintainers:
     - conda-forge/r
     - cofinoa
-    
+
 
 # Package: transformeR
 # Depends: R(>= 3.5.0)
