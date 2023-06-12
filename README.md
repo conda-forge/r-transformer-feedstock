@@ -1,11 +1,11 @@
-About r-transformer
-===================
+About r-transformer-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-transformer-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/SantanderMetGroup/climate4R
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-transformer-feedstock/blob/main/LICENSE.txt)
 
 Summary: Tools for climate data analysis, visualization and manipulation. A building block of the climate4R Framework <https://github.com/SantanderMetGroup/climate4R>.
 
