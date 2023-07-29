@@ -1,4 +1,4 @@
-{% set version = "2.1.5" %}
+{% set version = "2.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -8,11 +8,11 @@ package:
 
 source:
   url: https://github.com/SantanderMetGroup/transformeR/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 4ab4a40b735917d51eace4a0e67920fda990b0b66b3b4312449de53073ad85f6
+  sha256: 5caa63bc3020738e4af38c08a1e96bb04cbfd8b67f78fef1fd43a7f161dcc1eb
 
 build:
   merge_build_host: true  # [win]
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
