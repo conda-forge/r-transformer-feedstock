@@ -1,4 +1,4 @@
-{% set version = "2.2.2" %}
+{% set version = "2.2.4" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/SantanderMetGroup/transformeR/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: ccac13724e170914020fd2872714cb882a918f1c03754409875201d38112157d
+  sha256: 63a0a73290af6deaa7894d09f6721c075dde94249edf24d93cae53a7442f6a77
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
