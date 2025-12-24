@@ -149,4 +149,6 @@ Feedstock Maintainers
 
 * [@cofinoa](https://github.com/cofinoa/)
 * [@conda-forge/r](https://github.com/orgs/conda-forge/teams/r/)
+* [@mariadlor](https://github.com/mariadlor/)
+* [@miturbide](https://github.com/miturbide/)
 
